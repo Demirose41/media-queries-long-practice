@@ -24,3 +24,60 @@
 }
 
 /* Your code here */
+
+@media screen and (max-width: 600px) {
+    
+}
+@media screen and (min-width: 900px) and (max-width:1199) {
+
+.photo-card{
+    display: flex;
+    flex-flow: column;
+}
+.photo-card .content{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    align-content: flex-start;
+}
+
+h3,
+a{
+    display: block;
+    text-align: left;
+}
+
+.photo-card p,
+.photo-card img {
+    padding: 20px;
+}
+
+
+
+.photo-card img{
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding:5px;
+    width: 150px;
+    justify-content: flex-start;
+
+}
+}
+@media screen and (min-width: 1200px) {
+    
+    .photo-card{
+        width: 40%;
+        height: 80%;
+        padding: auto;
+        margin: auto;
+        display: inline-block;
+    }
+
+    .photo-card img {
+        object-fit: fill;
+    }
+    
+}
+@media screen and (max-width: 1500px) {
+    
+}

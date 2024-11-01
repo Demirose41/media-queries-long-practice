@@ -59,3 +59,27 @@ nav a.selected {
         visibility: hidden;
     }
 }
+
+@media screen and (max-height: 640px){
+    header.homepage {
+        height: 220px;
+    }
+}
+
+/* Mobile devices */
+
+@media screen and (max-width: 320px){
+    a {
+        text-decoration: underline;
+    }
+}
+
+@media screen and (min-width: 1025px){
+    a {
+        text-decoration: none;
+    }
+
+    a:hover {
+        text-decoration: underline;
+    }
+}
